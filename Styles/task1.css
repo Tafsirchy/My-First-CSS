@@ -1,0 +1,22 @@
+h3{
+    text-decoration: underline;
+    font-size: xx-large;
+    text-shadow: springgreen 2px 2px 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container{
+    background-color: darkkhaki;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px 10px;
+    border: 20px 20px;
+    border-color: darkslategray;
+    border-style: solid;
+    border-width: 20px 20px;
+    box-shadow: 10px 10px 10px  black;
+    text-align: center;
+    color: rgb(28, 80, 3);
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}

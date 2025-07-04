@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style> /*For styling*/
+        *{
+            /*margin: 0;*/ /*This is universal selector*/
+        }
+        p{
+            /*color: brown;*/ /*This is inline styling or element*/
+        }
+        #fifth, li{
+            font-size: 32px; /*This is id selector*/
+        }
+        .holud, .yellow{
+            background-color: rgb(227, 236, 90); /*This is class selector*/
+        }
+        .bold{
+            font-weight:800; /*This is class selector*/
+        }
+        input{
+            font-size: 30px; /*This is type selector*/
+        }
+        input[type="password"]{ /*This is attribute selector*/
+            color: brown;
+        }
+        .emni{ /*This is class selector*/
+            color: blue;
+        }
+        .blog{ /*This is class selector*/
+            background-color: burlywood;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Explore Mixed CSS</h3>
+    <p class="holud">My first <span class="emni">line CSS</span></p>
+    <p class="yellow bold">My second line CSS</p>
+    <p>My third line CSS</p>
+    <p class="yellow">My fourth line CSS</p>
+    <p id="fifth" class="holud">My fifth line CSS</p>
+    <p class="bold">My sixth line CSS</p>
+    <p>My seventh line CSS</p>
+
+    <ol>
+        <li>element selector</li>
+        <li>id selector</li>
+        <li class="bold holud">class selector</li>
+        <li>universal selector</li>
+    </ol>
+
+    <form>
+        <input type="text" placeholder="name" name="" id="">
+        <input type="password" placeholder="password" name="" id="">
+    </form>
+
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, vel neque nemo repellendus dolore fuga doloribus eius quasi dignissimos iste accusantium tempora? Fugit suscipit cum sed, laborum molestias molestiae corporis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At autem, dolores quia soluta maxime sapiente voluptas impedit voluptates odit optio cumque iste! Similique inventore rem labore ducimus, amet in sint!</p>
+    </div>
+    
+</body>
+</html>
