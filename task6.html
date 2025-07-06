@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/task6.css">
+    <title>CSS Display Property Challenge</title>
+
+</head>
+<body>
+    <h1>CSS Property Display Challenge</h1>
+    <div class="container">
+        <h2>1. Display: none</h2>
+        <p>This paragraph is visible, but the next one has <code>display: none</code> applied:</p>
+        <p class="display-none">This paragraph is hidden with display: none (it doesn't take up space).</p>
+        This paragraph follows the hidden one. Notice there's no gap where the hidden paragraph would be.</p>
+    </div>
+    <div class="container">
+        <h2>2. Visibility: hidden</h2>
+        <p>This paragraph is visible, but the next one has <code>visibility: hidden</code> applied:</p>
+        <p class="visibility-hidden">This paragraph is hidden with visibility: hidden (but it still takes up space).</p>
+        <p>This paragraph follows the visibility: hidden one. Notice the space is preserved.</p>
+    </div>
+    <div class="container">
+        <h2>3. Display: inline</h2>
+        <p>Default behavior of span elements (inline):</p>
+        <span class="original">Span 1</span>
+        <span class="original">Span 2</span>
+        <span class="original">Span 3</span>
+        
+        <p>Div elements forced to display as inline:</p>
+        <div class="inline">Div as inline 1</div>
+        <div class="inline">Div as inline 2</div>
+        <div class="inline">Div as inline 3</div>
+        
+        <p>Notice how inline elements don't respect width/height and sit next to each other.</p>
+    </div>
+    <div class="container">
+        <h2>4. Display: block</h2>
+        <p>Default behavior of div elements (block):</p>
+        <div class="original">Div 1</div>
+        <div class="original">Div 2</div>
+        <div class="original">Div 3</div>
+        
+        <p>Span elements forced to display as block:</p>
+        <span class="block">Span as block 1</span>
+        <span class="block">Span as block 2</span>
+        <span class="block">Span as block 3</span>
+        
+        <p>Block elements take full width and stack vertically.</p>
+    </div>
+    <div class="container">
+        <h2>5. Display: inline-block</h2>
+        <p>Elements with display: inline-block:</p>
+        <div class="inline-block">Box 1</div>
+        <div class="inline-block">Box 2</div>
+        <div class="inline-block">Box 3</div>
+        
+        <p>Inline-block elements flow like inline elements but respect width/height like block elements.</p>
+    </div>
+    <div class="container">
+        <div class="example">
+            <h2>6. Mixed Examples with Images and Buttons</h2>
+            <p>Default image (inline): <img src="pexels-designecologist (1).jpg" alt="Pic1" class="images"></p>
+            <p>Image as block: <img src="pexels-designecologist (2).jpg" alt="pic2" class="images" style="display: block;"> </p>
+            <p>Image as inline-block: <img src="pexels-designecologist (3).jpg" alt="pic3" class="images" style="display: inline-block;"></p>
+        </div>
+        <div class="example">
+            <h3>Buttons with different display values</h3>
+            <button style="display: inline;">Inline Button</button>
+            <button style="display: block; margin: 10px auto;">Block Button</button>
+            <button style="display: inline-block; width: 200px;">Inline-Block Button</button>
+        </div>
+    </div>
+</body>
