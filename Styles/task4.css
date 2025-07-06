@@ -1,0 +1,30 @@
+.card-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+#card1 {
+  background-image: url('https://picsum.photos/id/1015/400/300');
+}
+
+#card2 {
+  background-color: teal;
+}
+
+#card3 {
+  background-image: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+}
